@@ -1,0 +1,48 @@
+.container{
+
+    border: 5px solid orange;
+    display:grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(1, auto);
+    height: 1100px;
+
+}
+
+.container div{
+    color:white;
+    font-size: 60px;
+    text-align: center;
+    grid-row:1/9;
+
+}
+#Yellow{
+    background-color:yellow;
+}
+
+#green{
+    background-color:green;
+}
+#red{
+    background-color:red;
+}
+#blue{
+    background-color:blue;
+}
+#Yellow{
+    background-color:yellow;
+}
+#orange{
+    background-color:orange;
+}
+#purple{
+    background-color:purple;
+}
+#rose{
+    background-color:pink;
+}
+#maroon{
+    background-color:maroon;
+}
+#gray{
+    background-color:gray;
+}
