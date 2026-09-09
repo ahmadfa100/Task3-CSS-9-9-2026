@@ -1,0 +1,50 @@
+.container{
+    border: 5px solid orange;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    display : grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    text-align: center;
+    font-size: 120px;
+
+}
+
+.container div{
+    width: 100%;
+    height: 100%;
+    line-height: 200px;
+
+}
+
+#one{
+    background-color: #42c264;
+}
+
+#two{
+    background-color: #c2c242;
+}
+#three{
+    background-color: #c26442;
+}
+#four{
+    background-color: #4242c2;
+}
+#five{
+    background-color: #c242c2;
+}
+#six{       
+    background-color: #42c2c2;
+}       
+#seven{
+    background-color: #c2c264;
+}
+#eight{
+    background-color: #c264c2;
+}
+#nine{
+    background-color: #42c2c2;
+}
+#ten{
+    background-color: #c26442;
+}
